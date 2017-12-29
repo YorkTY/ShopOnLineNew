@@ -1,0 +1,91 @@
+  @charset "utf-8";
+/* CSS Document */
+* {
+ padding:0;
+ list-style:none;
+ margin:0
+}
+   body{
+	text-align:center;
+     }
+	#Context{
+		width：800px;
+	    height:300px;
+		margin-top:80px;
+		margin-left:260px;
+	
+		}
+
+	#Footer{
+		margin-top:160px;
+	}
+			   
+   #Footer .footer3  a{
+		 color:#000;
+    
+        }
+      .footer2{
+	color:#666;
+           }
+	.error{
+	color:red;
+	font-size:14px;
+}
+
+.hyzc{
+	width:800px;
+	height:70px;
+	
+}
+#zc{
+	width:800px;
+	height:350px;
+	
+}
+label{
+	font-size:18px;
+	
+}
+input {
+      border: 1px solid #bdbdbd;
+      text-indent: .5em;
+      outline: none;
+      height: 48px;
+	  width:300px;
+      line-height: 40px;
+	  margin-top:8px;
+	  }
+	  .submit{
+		    background:#f7325d;
+			color:#FFF;
+			margin-left:120px;
+	  }
+		#code{
+	width:125px;
+	height:48px;
+	font-size:20px;
+		font-family:Arial;  
+		font-style:italic;  
+		font-weight:bold;  
+		border:0;  
+		letter-spacing:2px;  
+		color:#F00;  
+	}
+	#input {
+      border: 1px solid #bdbdbd;
+      text-indent: .5em;
+      outline: none;
+      height: 40px;
+	  width:160px;
+      line-height: 40px;
+	  margin-top:8px;
+	  margin-right:8px;
+	  }
+	
+  .divp{
+	  margin-left:200px;
+	 height:70px;
+	  width:450px;
+	  margin-top:5px;
+
+  }

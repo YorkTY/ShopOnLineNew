@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+
+		  .findpsd-form ._getcode ._submit {
+	      display: block;
+          text-align: center;
+          width:150px;
+          height:50px;
+          font-size: 18px;
+		  margin-top:-50px;
+          margin-left:255px;
+          background:#f7325d;
+		  color:#FFF;
+         }
+		
+		 .findpsd-form .final
+		 {
+		    padding-left: 50px;
+	        position:relative;
+	        padding-top:30px;
+		 }
+		 .findpsd-form .final input{
+			   border: 1px solid #bdbdbd;
+           text-indent: .5em;
+           outline: none;
+           height: 50px;
+	       width:200px;
+           line-height: 40px;
+			 }
+		 .findpsd-form .final ._submit{
+			 background-color:#f7325d;
+			 color:#FFF;
+              display: block;
+	         height: 50px;
+	width: 100px;
+	font-size: 18px;
+	position: absolute;
+	left: 255px;
+	top: 30px;
+	text-align: center;
+	padding-top: 5px;
+	padding-left:5px;
+
+			 }
+._getcode .input1{
+	width:200px;
+	height:50px;
+	margin-top:20px;
+	margin-left:50px;
+}
+

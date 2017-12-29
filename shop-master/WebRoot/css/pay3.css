@@ -1,0 +1,157 @@
+@charset "utf-8";
+/* CSS Document */
+a{
+color:#000;	
+}
+* {
+ padding:0;
+ list-style:none;
+ margin:0
+}
+   body{
+	text-align:center;
+	padding-top:50px;
+	background-color:#FCFCFC;
+     }
+	.logo{
+	padding:20px 15px;
+	text-align:center;
+		}
+    #div{
+	width:100%;
+	margin: 0 auto;
+	}	
+	#header{
+		height:10px;
+	}
+	#Footer{
+		background:#E0E0E0;
+		margin-top:500px;
+	}
+	.footer1{
+		margin-top:10px;
+	}
+       ul li{
+	list-style-type:none;
+	
+
+                   }
+     ul li a{
+	color:#666;
+               }
+			   
+   #Footer .footer3  a{
+		 color:#000;
+    
+        }
+#Footer .footer4  a{
+	 color:#000;
+	
+}
+      .footer2{
+	color:#666;
+           }
+       #search{
+     width:400px;
+     height:45px;
+ border:3px solid #DC143C;
+        }
+
+.step-order {
+  width: 600px;
+  margin-top: 20px;
+  margin-right:60px;
+}
+.step-order li {
+  position: relative;
+  border-top: 5px solid #cccccc;
+  width: 140px;
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  float: left;
+  color: #ccc;
+  list-style:none;
+}
+.step-order li s {
+  width: 20px;
+  height: 20px;
+  background: #CCC;
+  position: absolute;
+  top: -13px;
+  left: 50%;
+  margin-left: -10px;
+  font-weight: bold;
+  color: #FFF;
+  line-height: 20px;
+  text-decoration: none;
+  border-radius: 20px;
+}
+.step-order li.active {
+  border-top: 5px solid #7abd54;
+  color: #7abd54;
+}
+.step-order li.active s {
+  background: #7abd54;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  border-radius: 25px;
+  top: -16px;
+}
+.order-success {
+  box-sizing: border-box;
+  background: #f3fded;
+  border-top: 3px solid #7abd54;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px #ddd;
+  padding: 20px 30px;
+  margin-top:15px;
+  margin-left:245px;
+  width:800px;
+}
+.order-success ._info p {
+  line-height: 2;
+}
+.order-success ._tips {
+  padding: .2rem 0;
+  color: #999;
+  padding-left: 12px;
+  padding-top: 20px;
+}
+.order-success h2 {
+  color: #7abd54;
+  font-size: 20px;
+  text-align:left;
+}
+.order-success h2 i.iconfont {
+  font-size: 20px;
+}
+.order-success ._info {
+  padding-left: 10px;
+  line-height: 30px;
+  background: #FFF;
+  border: 1px solid #f5f5f5;
+  margin-left: 26px;
+  margin-top:35px;
+  text-align:left;
+}
+.order-success ._info p {
+  display: inline-block;
+  margin-right: 10px;
+}
+.order-success ._info strong {
+  color: #f7325d;
+}
+.order-success ._link {
+  padding: 20px 0 10px 26px;
+  height: 30px;
+  text-align:left;
+}
+.order-success ._link a {
+  background: #FFF;
+}
+#footer{
+		background:#E0E0E0;
+		margin-top:20px;
+	}

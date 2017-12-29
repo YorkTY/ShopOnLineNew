@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+	 .findpsd-form ._form-main {
+	        padding-left: 50px;
+	        position:relative;
+	        padding-top:10px;
+			text-align:center;
+			width:250px;
+			height:100px;
+			font-size:20px;
+         }
+		   .findpsd-form .findpsd-submit ._submit {
+	      display: block;
+          text-align: center;
+          width:200px;
+          height:40px;
+          font-size: 18px;
+          margin-top:25px;
+          margin-left:50px;
+          background:#f7325d;
+		  color:#FFF;
+         }

@@ -1,0 +1,157 @@
+@charset "utf-8";
+/* CSS Document */
+.ucenter {
+  background: #f5f5f5;
+  padding: 20px 0;
+}
+.ucenter-menu {
+  background: #FFF;
+  width: 150px;
+  float: left;
+  padding: 10px;
+  margin-left:-35px;
+  text-align:left;
+}
+.ucenter-menu h2 {
+  font-size: 16px;
+  color: #000;
+  height: 35px;
+  line-height: 35px;
+  padding-left:15px;
+}
+.ucenter-menu li a {
+  padding-left: 25px;
+  font-size: 12px;
+  display: block;
+  height: 25px;
+  line-height: 15px;
+}
+.ucenter-menu ._menu s {
+  position: absolute;
+  left: 10px;
+  top: 0;
+  text-decoration: none;
+}
+.ucenter-menu ._menu li a:hover,
+.ucenter-menu ._menu li a.hot {
+  color: #d23335;
+  font-weight: bold;
+}
+.ucenter-title {
+  font-size: 16px;
+  color: #000;
+  height: 35px;
+  line-height: 35px;
+  margin-bottom: 10px;
+  text-align:left;
+}
+.ucenter-content {
+  color: #666;
+  background: #FFF;
+  width: 1000px;
+  padding: 15px;
+  padding-bottom: 30px;
+  float: right;
+  font-size: 12px;
+  position: relative;
+}
+.ucenter-pager {
+  text-align: right;
+  margin-top: -100px;
+}
+.ucenter-pager a {
+  display: inline-block;
+  border: 1px solid #dcdcdc;
+  border-radius: 3px;
+  padding: 5px 1em;
+  color: #0f81d8;
+}
+.ucenter-pager a.active {
+  font-weight: bold;
+  border: none;
+  color: #f19325;
+}
+.ucenter-pager a:hover {
+  color: #FFF;
+  background: #0f81d8;
+}
+.favP {}
+.favP .list-goods {
+  padding-bottom: 50px;
+}
+.favP .list-goods ._item {
+  width: 240px;
+  height: 390px;
+  float: left;
+}
+.favP .list-goods ._item ._inner {
+  padding: 12px 6px;
+}
+.favP .list-goods ._item:hover ._focus {
+  bottom: 0;
+}
+.favP .list-goods ._img {
+  margin: 10px 0;
+  position: relative;
+  height: 220px;
+  overflow: hidden;
+  text-align: center;
+}
+.favP .list-goods ._price {
+  margin-bottom: 8px;
+  color: #e4393c;
+  font-size: 20px;
+}
+.favP .list-goods ._price i {
+  font-style: normal;
+}
+.favP .list-goods ._name {
+  margin-bottom: 8px;
+}
+.favP .list-goods ._name a {
+  display: block;
+  font-size: 12px;
+  color: #666;
+  max-height: 2.7em;
+  overflow: hidden;
+}
+.favP .list-goods ._name a:hover {
+  color: #f7325d;
+}
+.favP .list-goods ._commit {
+  margin-bottom: 8px;
+  color: #777;
+  zoom: 1;
+  border: 1px solid #f5f5f5;
+}
+.favP .list-goods ._commit:before,
+.favP .list-goods ._commit:after {
+  content: "";
+  display: table;
+}
+.favP .list-goods ._commit:after {
+  clear: both;
+}
+.favP .list-goods ._commit ._message {
+  float: left;
+  width: 110px;
+  text-align: center;
+  padding: 5px 0;
+}
+.favP .list-goods ._commit ._click {
+  float: left;
+  width: 110px;
+  border-left: 1px solid #f5f5f5;
+  text-align: center;
+  padding: 5px 0;
+}
+.favP .list-goods ._commit a {
+  color: #005aa0;
+}
+.favP .list-goods ._shop {
+  font-size: 12px;
+  color: #666;
+}
+.favP .list-goods ._shop a:hover {
+  color: #f7325d;
+}

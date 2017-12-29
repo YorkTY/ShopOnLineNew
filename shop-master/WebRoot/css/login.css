@@ -1,0 +1,135 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	padding-top:50px;
+	}
+	
+	.banner{
+		background:url(../images/bg.jpg) no-repeat top center #6c1aaf;
+		height: 475px;
+		width:auto;
+		background-attachment: fixed;
+		}
+		.login-form {
+	position: absolute;
+	width: 325px;
+	height: 390px;
+	right: 38px;
+	background: #FFF;
+	top: 130px;
+	padding:40px;
+         }
+		 .login-form .welcome
+		 {
+			 text-align:left;
+			 font-size:20px;
+			 margin-bottom:-15px;
+			 margin-left:0px;
+			 }
+		 .login-form-body {
+    padding-top: 20px;
+         }
+		.login-form ._form-group {
+	padding-left: 50px;
+	position:relative;
+	padding-top: 15px;
+         }
+        .login-form ._form-group .iconfont {
+	background: no-repeat center;
+	border: 1px solid #bdbdbd;0
+	height: 48px;
+	width: 47px;
+	font-size: 18px;
+	position: absolute;
+	left: 1px;
+	top: 15px;
+	text-align: center;
+	padding-top: 15px;
+         }
+		 .login-form ._form-group input {
+      border: 1px solid #bdbdbd;
+      text-indent: .5em;
+      outline: none;
+      height: 48px;
+	  width:200px;
+      line-height: 40px;
+      }
+	  .login-form ._check-code {
+	padding-left: 1px;
+	position:relative;
+	padding-top: 15px;
+	width:400px;
+	height:50px;
+     }
+    .login-form ._check-code input {
+      border: 1px solid #bdbdbd;
+      text-indent: .5em;
+      outline: none;
+      height: 48px;
+	  width:150px;
+      line-height: 40px;
+	  padding-left:10px;
+	}
+	  .login-form ._check-code .verycodefont {
+	background: no-repeat center;
+	border: 1px solid #bdbdbd;
+	height: 48px;
+	width: 95px;
+	font-size: 18px;
+	position: absolute;
+	left: 155px;
+	top: 15px;
+	text-align: center;
+	padding-top: 15px;
+         }
+		 .login-form .login-options
+		 {
+			 	padding-left: 1px;
+	            position:relative;
+	            padding-top: 15px;
+	     }
+		 .login-form .login-options input[type=checkbox] {
+         vertical-align: -2px;
+         }
+	
+.login-submit ._submit {
+	width:270px;
+	height:40px;
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  margin-top:30px;
+  background:#f7325d;
+  color:#FFF;
+}
+.login-form .login-footer {
+ 	padding-left: 1px;
+	position:relative;
+    padding-top: 10px;
+}
+.account-footer {
+  text-align: center;
+  margin-top: 26px;
+  font-size: 12px;
+  border-top: 1px solid #d4d4d4;
+}
+a{
+	color:#000;
+	
+}
+#code{
+	width:120px;
+	height:50px;
+	font-size:20px;
+		font-family:Arial;  
+		font-style:italic;  
+		font-weight:bold;  
+		border:0;  
+		letter-spacing:2px;  
+		color:red;  
+	}
+img {
+	width:20px;
+	height:30px;
+	
+}

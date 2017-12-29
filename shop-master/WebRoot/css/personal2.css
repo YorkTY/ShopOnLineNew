@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+.ucenter {
+  background: #f5f5f5;
+  padding: 20px 0;
+}
+.ucenter-menu {
+  background: #FFF;
+  width: 150px;
+  float: left;
+  padding: 10px;
+  margin-left:-35px;
+  text-align:left;
+}
+.ucenter-menu h2 {
+  font-size: 16px;
+  color: #000;
+  height: 35px;
+  line-height: 35px;
+  padding-left:15px;
+}
+.ucenter-menu li a {
+  padding-left: 25px;
+  font-size: 12px;
+  display: block;
+  height: 25px;
+  line-height: 15px;
+}
+.ucenter-menu ._menu s {
+  position: absolute;
+  left: 10px;
+  top: 0;
+  text-decoration: none;
+}
+.ucenter-menu ._menu li a:hover,
+.ucenter-menu ._menu li a.hot {
+  color: #d23335;
+  font-weight: bold;
+}
+.ucenter-content {
+  color: #666;
+  background: #FFF;
+  width: 1000px;
+  padding: 15px;
+  padding-bottom: 30px;
+  float: right;
+  font-size: 12px;
+  position: relative;
+}
+.ucenter-title {
+  font-size: 16px;
+  color: #000;
+  height: 35px;
+  line-height: 35px;
+  margin-bottom: 10px;
+}
+.order-header {
+  position:relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-bottom: 15px solid #f5f5f5;
+  padding-top: 15px;
+}
+.order-header p {
+  padding: 0 15px;
+  font-size: 14px;
+  margin-left:-900px;
+}
+.order-body {
+  margin-top: 65px;
+}
+.order-body .tag-header {
+  margin-bottom: 15px;
+  margin-top:20px;
+  margin-left:-700px;
+}
+.order-body .tag-header .tag {
+  display: inline-block;
+  line-height: 1.8;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.order-body .tag-header .tag.active {
+  border-bottom: 2px solid #f7325d;
+  color: #f7325d;
+}
+.order-header-table th {
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  background: #f5f5f5;
+  color: #666;
+  font-weight: 400;
+}
